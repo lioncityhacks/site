@@ -641,9 +641,6 @@ export default function Index(props) {
       <style>
         {`
 
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,999;0,400;0,500;0,600;0,700;1,100;1,200;1,999;1,400;1,500;1,600;1,700&display=swap');
-
-
         h1 {
         margin-block-start: 0em;
 margin-block-end: 0em;
