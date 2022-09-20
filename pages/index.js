@@ -218,6 +218,7 @@ const Glossary = () => (
         sx={{
           color: 'white',
           opacity: 0.5,
+          transition: 'color 0.125s ease-in-out 0s',
           ':hover': { opacity: 0.9 },
           maxWidth: '600px',
           mt: 2,
