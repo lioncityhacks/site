@@ -506,7 +506,7 @@ export default function Index(props) {
                 <p>
                   We're inviting you to{' '}
                   <Text as="b" sx={{ fontWeight: 900, color: 'red' }}>
-                    🦁Lion City Hacks
+                    🦁 Lion City Hacks
                   </Text>
                   , a hackathon for teenagers in Singapore, on{' '}
                   <i>
@@ -514,12 +514,12 @@ export default function Index(props) {
                   </i>{' '}
                   at{' '}
                   <i>
-                    <a href="https://www.google.com/maps/place/Red+Hat+Asia+Pacific+Pte+Ltd/@1.2841018,103.8477742,17z/data=!3m1!4b1!4m5!3m4!1s0x31da191377716ae1:0x166080ad6b7de256!8m2!3d1.2841018!4d103.8499629">RedHat Singapore</a>
+                    <Link target="_blank" href="https://www.google.com/maps/place/Red+Hat+Asia+Pacific+Pte+Ltd/@1.2841018,103.8477742,17z/data=!3m1!4b1!4m5!3m4!1s0x31da191377716ae1:0x166080ad6b7de256!8m2!3d1.2841018!4d103.8499629">RedHat Singapore</Link>
                   </i>
                   . Join us for twelve hours of hacking, workshops & friendship.
                 </p>
                 <p style={{ marginBlockEnd: '0em' }}>
-                  RSVP today or read on for more details.
+                  <Link target="_blank" href="https://register.lioncityhacks.com">RSVP today</Link> or read on for more details.
                 </p>
               </Container>
             </motion.div>
