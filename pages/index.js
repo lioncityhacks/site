@@ -7,6 +7,7 @@ import {
   Flex,
   Heading,
   Text,
+  Image,
   Grid,
   Link,
 } from 'theme-ui'
@@ -19,7 +20,7 @@ import times from 'lodash/times'
 import Icon from '@hackclub/icons'
 import theme from '../lib/theme'
 
-const Card = ({ question = 'question', answer = 'answer' }) => (
+const Card = ({ question = 'question', answer = 'answer', sx = {} }) => (
   <Box
     sx={{
       bg: 'white',
@@ -31,6 +32,7 @@ const Card = ({ question = 'question', answer = 'answer' }) => (
         boxShadow: 'elevated',
         transform: 'scale(1.0625)',
       },
+      ...sx,
     }}
   >
     <Heading as="h4" pb={2}>
@@ -45,7 +47,7 @@ const Glossary = () => (
     sx={{
       backgroundImage:
         'linear-gradient(90deg, rgba(5, 11, 20, 0.8) 0%, rgba(5, 11, 20, 0.8) 100% ), url(https://cloud-hunfczv0s-hack-club-bot.vercel.app/0screenshot_2022-08-30_at_11.42.24_pm.png)',
-      backgroundSize: 'cover'
+      backgroundSize: 'cover',
     }}
   >
     <Container sx={{ py: [4, 6] }}>
@@ -61,6 +63,7 @@ const Glossary = () => (
       >
         Anything else?
       </Text>
+
       <Grid columns={[1, null, 3]} gap={[3, 3, 3]}>
         <Card
           question="What do I need?"
@@ -124,9 +127,134 @@ const Glossary = () => (
           }
         />
       </Grid>
+      <Box sx={{ mt: 3 }}>
+        <Card
+          question="Who is running Lion City Hacks?"
+          answer={
+            <>
+              Lion City Hacks is independently-organized by{' '}
+              <a
+                style={{ color: 'black' }}
+                href="https://innovationcircuit.com/"
+                target="_blank"
+              >
+                a team of teenagers
+              </a>
+              , we're fiscally sponsored by{' '}
+              <a
+                style={{ color: 'black' }}
+                href="https://the.hackfoundation.org"
+                target="_blank"
+              >
+                The Hack Foundation
+              </a>{' '}
+              (an international non-profit). Previously our team has worked on
+              events such as{' '}
+              <a
+                style={{ color: 'black' }}
+                href="https://photos.google.com/share/AF1QipNu5OKRsEZzw59wu6hGCW1oPpfVk0jn_w_mn27c0k97ttAbRxE3G_WC1gDcltbQJA?key=cFZXbEsxVWRrOFBBNldTU24zT0M1OFJQZnFTUUxn"
+                target="_blank"
+              >
+                CodeDay Singapore
+              </a>{' '}
+              &{' '}
+              <a
+                style={{ color: 'black' }}
+                href="https://twitter.com/figma/status/1556774728072761344"
+                target="_blank"
+              >
+                Assemble
+              </a>
+              . We're super excited to welcome you to Lion City Hacks!
+            </>
+          }
+        />
+      </Box>
+      <Text
+        sx={{
+          color: 'white',
+          pt: 4,
+          pb: 2,
+          display: 'block',
+          textShadow: 'elevated',
+          fontSize: 4,
+          fontWeight: 900,
+        }}
+      >
+        Thank you to our sponsors & partners!
+      </Text>
+      <Flex sx={{ flexWrap: 'wrap' }}>
+        <SupporterImage
+          src="https://www.ibo.org/Assets/Images/logo-163.svg"
+          href="https://www.ibo.org"
+          sx={{
+            bg: 'white',
+          }}
+        />
+        <SupporterImage
+          src="https://www.ashoka.org/themes/custom/blanco_ashoka_org/logo.svg"
+          href="https://www.ashoka.org/en-sg"
+          sx={{
+            bg: '#F46523',
+            p: '6px',
+          }}
+        />
+        <SupporterImage
+          src="https://assets.hackclub.com/flag-standalone.png"
+          href="https://hackclub.com"
+          sx={{
+            bg: 'white',
+          }}
+        />
+        <SupporterImage
+          src="https://cloud-iehxwn0k6-hack-club-bot.vercel.app/0first_horz_rgb.png"
+          href="https://www.firstinspires.org/"
+          sx={{
+            bg: 'white',
+          }}
+        />
+      </Flex>
+      <Box
+        sx={{
+          color: 'white',
+          opacity: 0.5,
+          ':hover': { opacity: 0.9 },
+          maxWidth: '600px',
+          mt: 2,
+        }}
+      >
+        Interested in sponsoring & helping create a magical programming
+        experience for teenagers in Singapore?{' '}
+        <a href="mailto:contact@lioncityhacks.com" style={{ color: 'white' }}>
+          Drop us a line on email
+        </a>{' '}
+        or  <a href="https://bank.hackclub.com/donations/start/lion-city-hacks" target="_blank" style={{ color: 'white' }}>donate directly</a>!
+      </Box>
     </Container>
   </Box>
 )
+
+function SupporterImage({ src, href, sx, ...props }) {
+  return (
+    <Link href={href}>
+      <Image
+        src={src}
+        sx={{
+          height: '90px',
+          minWidth: '1px',
+          maxWidth: 'none',
+          bg: 'white',
+          p: '20px',
+          borderRadius: 6,
+          mr: 2,
+          mt: 2,
+          ...sx,
+        }}
+        {...props}
+      />
+    </Link>
+  )
+}
 
 const MarketingImage = ({
   href,
@@ -514,12 +642,25 @@ export default function Index(props) {
                   </i>{' '}
                   at{' '}
                   <i>
-                    <Link sx={{textDecoration: 'underline', color: 'black'}} target="_blank" href="https://www.google.com/maps/place/Red+Hat+Asia+Pacific+Pte+Ltd/@1.2841018,103.8477742,17z/data=!3m1!4b1!4m5!3m4!1s0x31da191377716ae1:0x166080ad6b7de256!8m2!3d1.2841018!4d103.8499629">RedHat Singapore</Link>
+                    <Link
+                      sx={{ textDecoration: 'underline', color: 'black' }}
+                      target="_blank"
+                      href="https://www.google.com/maps/place/Red+Hat+Asia+Pacific+Pte+Ltd/@1.2841018,103.8477742,17z/data=!3m1!4b1!4m5!3m4!1s0x31da191377716ae1:0x166080ad6b7de256!8m2!3d1.2841018!4d103.8499629"
+                    >
+                      RedHat Singapore
+                    </Link>
                   </i>
                   . Join us for twelve hours of hacking, workshops & friendship.
                 </p>
                 <p style={{ marginBlockEnd: '0em' }}>
-                  <Link sx={{textDecoration: 'underline', color: 'red'}} target="_blank" href="https://register.lioncityhacks.com">RSVP today</Link> or read on for more details.
+                  <Link
+                    sx={{ textDecoration: 'underline', color: 'red' }}
+                    target="_blank"
+                    href="https://register.lioncityhacks.com"
+                  >
+                    RSVP today
+                  </Link>{' '}
+                  or read on for more details.
                 </p>
               </Container>
             </motion.div>
@@ -578,7 +719,7 @@ export default function Index(props) {
                 <b>Date & Time:</b> Starts at 9:00am and ends at 9:00pm on
                 December 3rd.
               </Box>
-              <Grid bg="white" sx={{ p: 3 }} columns={[1,1,2]}>
+              <Grid bg="white" sx={{ p: 3 }} columns={[1, 1, 2]}>
                 <Box>
                   <b>Venue:</b> RedHat Singapore, <br />
                   88 Market Street, <br />
@@ -661,7 +802,8 @@ export default function Index(props) {
             >
               The Innovation Circuit
             </Link>
-            , fiscally sponsored by <Link
+            , fiscally sponsored by{' '}
+            <Link
               sx={{
                 fontWeight: 900,
                 color: 'white',
@@ -669,7 +811,10 @@ export default function Index(props) {
               }}
               href="https://the.hackfoundation.org"
               target="_blank"
-            >The Hack Foundation</Link>.
+            >
+              The Hack Foundation
+            </Link>
+            .
           </Box>
         </Box>
       </Box>
