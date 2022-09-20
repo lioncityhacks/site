@@ -50,7 +50,7 @@ const Glossary = () => (
       backgroundSize: 'cover',
     }}
   >
-    <Container sx={{ py: [4, 6] }}>
+    <Container sx={{ pt: [4, 6], pb: 4 }}>
       <Text
         variant="text.title"
         sx={{
