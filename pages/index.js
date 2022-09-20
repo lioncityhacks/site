@@ -514,7 +514,7 @@ export default function Index(props) {
                   </i>{' '}
                   at{' '}
                   <i>
-                    <u>Google Singapore</u>
+                    <a href="https://www.google.com/maps/place/Red+Hat+Asia+Pacific+Pte+Ltd/@1.2841018,103.8477742,17z/data=!3m1!4b1!4m5!3m4!1s0x31da191377716ae1:0x166080ad6b7de256!8m2!3d1.2841018!4d103.8499629">RedHat Singapore</a>
                   </i>
                   . Join us for twelve hours of hacking, workshops & friendship.
                 </p>
@@ -580,38 +580,29 @@ export default function Index(props) {
               </Box>
               <Grid bg="white" sx={{ p: 3 }} columns={[1,1,2]}>
                 <Box>
-                  <b>Venue:</b> 80 Pasir Panjang Rd, <br />
-                  Level #3, Singapore 117440 <br />
+                  <b>Venue:</b> RedHat Singapore, <br />
+                  88 Market Street, <br />
+                  Level 45 of CapitaSpring, Singapore 048948 <br />
                   <Text as="small" sx={{ opacity: 0.7 }}>
-                    (Near CC27 Labrador Park Station)
+                    (Near Raffles Place Station)
                   </Text>
                   <Grid columns={[1, 2, 2]} mt={2}>
                     <MarketingImage
-                      src="https://cloud-ivnd7rr49-hack-club-bot.vercel.app/0embeddedimage.jpg"
-                      href="https://cloud-ivnd7rr49-hack-club-bot.vercel.app/0embeddedimage.jpg"
-                      alt="The entrance to Google's DevSpace"
+                      src="https://www.mmoser.com/wp-content/uploads/2017/02/Red-Hat-Singapore-workplace-lounge-reception-1200x675.jpg"
+                      href="https://www.mmoser.com/wp-content/uploads/2017/02/Red-Hat-Singapore-workplace-lounge-reception-1200x675.jpg"
+                      alt="The entrance to RedHat's office."
                     />
                     <MarketingImage
-                      src="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/google_space-0607.jpg"
-                      href="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/google_space-0607.jpg"
-                      alt="Inside Google's DevSpace"
-                    />
-                    <MarketingImage
-                      src="https://developers.google.com/community/accelerators/images/space/launchpadspace_singapore.jpg"
-                      href="https://developers.google.com/community/accelerators/images/space/launchpadspace_singapore.jpg"
-                      alt="Inside Google's DevSpace"
-                    />
-                    <MarketingImage
-                      src="https://cdn.techinasia.com/wp-content/uploads/2017/06/google-hq-tia.jpg"
-                      href="https://cdn.techinasia.com/wp-content/uploads/2017/06/google-hq-tia.jpg"
-                      alt="Inside Google's DevSpace"
+                      src="https://www.mmoser.com/wp-content/uploads/2017/02/Red-Hat-Singapore-workplace-canteen-kitchen-collaboration-2000x1125.jpg"
+                      href="https://www.mmoser.com/wp-content/uploads/2017/02/Red-Hat-Singapore-workplace-canteen-kitchen-collaboration-2000x1125.jpg"
+                      alt="Inside RedHat's office"
                     />
                   </Grid>
                 </Box>
 
                 <Box>
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.828864274061!2d103.79795461453853!3d1.2760517990692941!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1b5462d8ef69%3A0xb8f399b9068aad7!2sGoogle%20Developers%20Space%2C%20Singapore!5e0!3m2!1sen!2ssg!4v1661602107036!5m2!1sen!2ssg"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8163414110145!2d103.8477742148047!3d1.2841017990634407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da191377716ae1%3A0x166080ad6b7de256!2sRed%20Hat%20Asia%20Pacific%20Pte%20Ltd!5e0!3m2!1sen!2ssg!4v1663668468118!5m2!1sen!2ssg"
                     height="100%"
                     width="100%"
                     style={{ border: '0', minHeight: '300px' }}
