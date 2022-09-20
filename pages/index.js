@@ -511,6 +511,10 @@ export default function Index(props) {
                   , a hackathon for teenagers in Singapore, on{' '}
                   <i>
                     <u>December 3rd</u>
+                  </i>{' '}
+                  at{' '}
+                  <i>
+                    <u>Google Singapore</u>
                   </i>
                   . Join us for twelve hours of hacking, workshops & friendship.
                 </p>
@@ -576,7 +580,45 @@ export default function Index(props) {
               </Box>
               <Grid bg="white" sx={{ p: 3 }} columns={[1,1,2]}>
                 <Box>
-                  <b>Venue:</b> to be confirmed, watch this space!
+                  <b>Venue:</b> 80 Pasir Panjang Rd, <br />
+                  Level #3, Singapore 117440 <br />
+                  <Text as="small" sx={{ opacity: 0.7 }}>
+                    (Near CC27 Labrador Park Station)
+                  </Text>
+                  <Grid columns={[1, 2, 2]} mt={2}>
+                    <MarketingImage
+                      src="https://cloud-ivnd7rr49-hack-club-bot.vercel.app/0embeddedimage.jpg"
+                      href="https://cloud-ivnd7rr49-hack-club-bot.vercel.app/0embeddedimage.jpg"
+                      alt="The entrance to Google's DevSpace"
+                    />
+                    <MarketingImage
+                      src="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/google_space-0607.jpg"
+                      href="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/google_space-0607.jpg"
+                      alt="Inside Google's DevSpace"
+                    />
+                    <MarketingImage
+                      src="https://developers.google.com/community/accelerators/images/space/launchpadspace_singapore.jpg"
+                      href="https://developers.google.com/community/accelerators/images/space/launchpadspace_singapore.jpg"
+                      alt="Inside Google's DevSpace"
+                    />
+                    <MarketingImage
+                      src="https://cdn.techinasia.com/wp-content/uploads/2017/06/google-hq-tia.jpg"
+                      href="https://cdn.techinasia.com/wp-content/uploads/2017/06/google-hq-tia.jpg"
+                      alt="Inside Google's DevSpace"
+                    />
+                  </Grid>
+                </Box>
+
+                <Box>
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.828864274061!2d103.79795461453853!3d1.2760517990692941!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1b5462d8ef69%3A0xb8f399b9068aad7!2sGoogle%20Developers%20Space%2C%20Singapore!5e0!3m2!1sen!2ssg!4v1661602107036!5m2!1sen!2ssg"
+                    height="100%"
+                    width="100%"
+                    style={{ border: '0', minHeight: '300px' }}
+                    allowFullScreen=""
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                  ></iframe>
                 </Box>
               </Grid>
               <Box bg="white" sx={{ p: 3 }}>
