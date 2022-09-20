@@ -590,6 +590,8 @@ export default function Index(props) {
               </Box>
               <Box
                 bg="green"
+                as="a"
+                href="https://register.lioncityhacks.com"
                 sx={{
                   p: 3,
                   fontSize: 3,
