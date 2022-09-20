@@ -514,12 +514,12 @@ export default function Index(props) {
                   </i>{' '}
                   at{' '}
                   <i>
-                    <Link target="_blank" href="https://www.google.com/maps/place/Red+Hat+Asia+Pacific+Pte+Ltd/@1.2841018,103.8477742,17z/data=!3m1!4b1!4m5!3m4!1s0x31da191377716ae1:0x166080ad6b7de256!8m2!3d1.2841018!4d103.8499629">RedHat Singapore</Link>
+                    <Link sx={{textDecoration: 'underline', color: 'black'}} target="_blank" href="https://www.google.com/maps/place/Red+Hat+Asia+Pacific+Pte+Ltd/@1.2841018,103.8477742,17z/data=!3m1!4b1!4m5!3m4!1s0x31da191377716ae1:0x166080ad6b7de256!8m2!3d1.2841018!4d103.8499629">RedHat Singapore</Link>
                   </i>
                   . Join us for twelve hours of hacking, workshops & friendship.
                 </p>
                 <p style={{ marginBlockEnd: '0em' }}>
-                  <Link target="_blank" href="https://register.lioncityhacks.com">RSVP today</Link> or read on for more details.
+                  <Link sx={{textDecoration: 'underline', color: 'red'}} target="_blank" href="https://register.lioncityhacks.com">RSVP today</Link> or read on for more details.
                 </p>
               </Container>
             </motion.div>
