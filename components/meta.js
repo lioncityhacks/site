@@ -8,8 +8,8 @@ const Meta = ({
   title = 'Lion City Hacks', // page title
   name = 'Lion City Hacks', // site name
   description = "🦁 We're inviting you to Lion City Hacks, a hackathon for teenagers in Singapore, on December 3rd. Join us for twelve hours of hacking, workshops & friendship.", // page description
-  image = 'https://cloud-bbc4b3xr0-hack-club-bot.vercel.app/0twitter_post_-_1-2.png', // social card image URL
-  url = 'https://hack.innovationcircuit.com',
+  image = 'https://cloud-iv8zoe34q-hack-club-bot.vercel.app/0twitter_post_-_1__2_.png', // social card image URL
+  url = 'https://lioncityhacks.com',
   children,
 }) => (
   <Head>
