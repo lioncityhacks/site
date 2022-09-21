@@ -611,10 +611,10 @@ export default function Index(props) {
               height: 'fit-content',
               overflow: 'visible',
               justifyContent: 'center',
+              alignItems: 'center',
               zIndex: 999,
             }}
           >
-            <Box sx={{ flexGrow: 1, minHeight: '10vh' }}></Box>
             <motion.div
               animate={{
                 y: [1000, 1000, 1000, 1000, 1000, 0],
@@ -629,8 +629,7 @@ export default function Index(props) {
                 sx={{
                   backgroundColor: '#e8e0cc',
                   backgroundImage: `url("https://www.transparenttextures.com/patterns/beige-paper.png")`,
-                  borderTopLeftRadius: 16,
-                  borderTopRightRadius: 16,
+                  borderRadius: 16,
                   zIndex: 2,
                   fontSize: 3,
                   px: 4,
