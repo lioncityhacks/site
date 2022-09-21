@@ -760,7 +760,8 @@ export default function Index(props) {
               <Box bg="white" sx={{ p: 3 }}>
                 <b>COVID-19:</b> We require all participants to be vaccinated
                 against COVID-19 or to have a medical exemption. We will be
-                providing participants with N95 masks.
+                providing participants with N95 masks (for optional but recommended
+                usage, inline with MOH guidelines). 
               </Box>
               <Box
                 bg="green"
