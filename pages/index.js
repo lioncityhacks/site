@@ -704,7 +704,7 @@ export default function Index(props) {
           </Heading>
           <Heading as="h1" pb={4} sx={{ fontSize: 5 }}>
             <Text sx={{ fontWeight: 500 }}>
-              At Lion City Hacks, 130+ teenagers will gather to:
+              At Lion City Hacks, 100+ teenagers will gather to:
             </Text>
           </Heading>
           <Features />
