@@ -213,6 +213,13 @@ const Glossary = () => (
             bg: 'white',
           }}
         />
+        <SupporterImage
+          src="https://www.redhat.com/cms/managed-files/Asset-Red_Hat-Logo_page-Logo-RGB.svg?itok=yWDK-rRz"
+          href="https://redhat.com"
+          sx={{
+            bg: 'white',
+          }}
+        />
       </Flex>
       <Box
         sx={{
@@ -705,7 +712,7 @@ export default function Index(props) {
           </Heading>
           <Heading as="h1" pb={4} sx={{ fontSize: 5 }}>
             <Text sx={{ fontWeight: 500 }}>
-              At Lion City Hacks, 130+ teenagers will gather to:
+              At Lion City Hacks, 100+ teenagers will gather to:
             </Text>
           </Heading>
           <Features />
@@ -761,7 +768,8 @@ export default function Index(props) {
               <Box bg="white" sx={{ p: 3 }}>
                 <b>COVID-19:</b> We require all participants to be vaccinated
                 against COVID-19 or to have a medical exemption. We will be
-                providing participants with N95 masks.
+                providing participants with N95 masks (for optional but recommended
+                usage, inline with MOH guidelines). 
               </Box>
               <Box
                 bg="green"
