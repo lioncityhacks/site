@@ -213,6 +213,13 @@ const Glossary = () => (
             bg: 'white',
           }}
         />
+        <SupporterImage
+          src="https://www.redhat.com/cms/managed-files/Asset-Red_Hat-Logo_page-Logo-RGB.svg?itok=yWDK-rRz"
+          href="https://redhat.com"
+          sx={{
+            bg: 'white',
+          }}
+        />
       </Flex>
       <Box
         sx={{
