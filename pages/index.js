@@ -611,7 +611,7 @@ export default function Index(props) {
                   fontSize: 3,
                   px: 4,
                   boxShadow: 'elevated',
-                  fontFamily: 'cursive',
+                  fontFamily: "'Apple Chancery', cursive",
                 }}
               >
                 <p style={{ marginBlockStart: '0em' }}>Dear hacker,</p>
@@ -805,6 +805,14 @@ export default function Index(props) {
       </Box>
       <style>
         {`
+          @font-face {
+              font-family: 'Apple Chancery';
+              src: url('Apple-Chancery.woff2') format('woff2'),
+                  url('Apple-Chancery.woff') format('woff');
+              font-weight: 100;
+              font-style: normal;
+              font-display: swap;
+          }
 
         h1 {
         margin-block-start: 0em;
