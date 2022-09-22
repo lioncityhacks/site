@@ -6,4 +6,4 @@ We're inviting you to 🦁 Lion City Hacks, a hackathon for teenagers in Singapo
 
 [RSVP today](https://register.lioncityhacks.com) or [read on](https://lioncityhacks.com) for more details.
 
-###### This repo is currently our website, built with Next.js, Theme UI & MDX!
+###### This repo is currently our website, built with Next.js, Theme UI & MDX! It features [photos](https://hack.af/assemble-photos) from [Assemble](https://github.com/hackclub/assemble) by [@kunalbotla](https://github.com/kunalbotla).
