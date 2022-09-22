@@ -314,7 +314,7 @@ const Features = () => (
     sx={{
       backgroundAttachment: 'fixed',
       backgroundImage:
-        'linear-gradient(90deg, rgba(0,0,0, 0.2) 0%, rgba(0,0,0, 0.2) 100% ), url(patterns/dots_blue.png)',
+        'linear-gradient(90deg, rgba(0,0,0, 0.2) 0%, rgba(0,0,0, 0.2) 100% )',
     }}
   >
     <Grid columns={[1, 1, 2]}>
