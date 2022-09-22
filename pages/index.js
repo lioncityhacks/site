@@ -596,7 +596,7 @@ export default function Index(props) {
               animate={{
                 y: [1000, 0],
               }}
-              transition={{ ease: 'easeInOut', duration: 2 }}
+              transition={{ ease: 'easeInOut', duration: 0.5 }}
               style={{ zIndex: 2 }}
             >
               <Container
