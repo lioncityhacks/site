@@ -37,7 +37,7 @@ const Meta = ({
       <>
         <meta key="og_img" property="og:image" content={image} />
         <meta key="tw_card" name="twitter:card" content="summary_large_image" />
-        <meta key="tw_img" name="twitter:image" content={image} />
+        <meta key="tw_img" name="twitter:image" content={`https://cloud-o1vs9w7zr-hack-club-bot.vercel.app/0ehagbre.png`} />
       </>
     )}
     <meta key="theme_color" name="theme-color" content={theme.colors.primary} />
