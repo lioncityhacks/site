@@ -214,8 +214,8 @@ const Glossary = () => (
           }}
         />
         <SupporterImage
-          src="https://www.redhat.com/cms/managed-files/Asset-Red_Hat-Logo_page-Logo-RGB.svg?itok=yWDK-rRz"
-          href="https://redhat.com"
+          src="https://www.Red Hat.com/cms/managed-files/Asset-Red_Hat-Logo_page-Logo-RGB.svg?itok=yWDK-rRz"
+          href="https://Red Hat.com"
           sx={{
             bg: 'white',
           }}
@@ -631,7 +631,7 @@ export default function Index(props) {
                       target="_blank"
                       href="https://www.google.com/maps/place/Red+Hat+Asia+Pacific+Pte+Ltd/@1.2841018,103.8477742,17z/data=!3m1!4b1!4m5!3m4!1s0x31da191377716ae1:0x166080ad6b7de256!8m2!3d1.2841018!4d103.8499629"
                     >
-                      RedHat Singapore
+                      Red Hat Singapore
                     </Link>
                   </i>
                   . Join us for twelve hours of hacking, workshops & friendship.
@@ -705,7 +705,7 @@ export default function Index(props) {
               </Box>
               <Grid bg="white" sx={{ p: 3 }} columns={[1, 1, 2]}>
                 <Box>
-                  <b>Venue:</b> RedHat Singapore, <br />
+                  <b>Venue:</b> Red Hat Singapore, <br />
                   88 Market Street, <br />
                   Level 45 of CapitaSpring, Singapore 048948 <br />
                   <Text as="small" sx={{ opacity: 0.7 }}>
@@ -715,12 +715,12 @@ export default function Index(props) {
                     <MarketingImage
                       src="https://www.mmoser.com/wp-content/uploads/2017/02/Red-Hat-Singapore-workplace-lounge-reception-1200x675.jpg"
                       href="https://www.mmoser.com/wp-content/uploads/2017/02/Red-Hat-Singapore-workplace-lounge-reception-1200x675.jpg"
-                      alt="The entrance to RedHat's office."
+                      alt="The entrance to Red Hat's office."
                     />
                     <MarketingImage
                       src="https://www.mmoser.com/wp-content/uploads/2017/02/Red-Hat-Singapore-workplace-canteen-kitchen-collaboration-2000x1125.jpg"
                       href="https://www.mmoser.com/wp-content/uploads/2017/02/Red-Hat-Singapore-workplace-canteen-kitchen-collaboration-2000x1125.jpg"
-                      alt="Inside RedHat's office"
+                      alt="Inside Red Hat's office"
                     />
                   </Grid>
                 </Box>
