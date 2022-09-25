@@ -246,6 +246,7 @@ function SupporterImage({ src, href, sx, ...props }) {
   return (
     <Link href={href}>
       <Image
+        alt={`Logo for ${href}`}
         src={src}
         sx={{
           height: '90px',
@@ -614,10 +615,11 @@ export default function Index(props) {
                   fontFamily: "'Apple Chancery', cursive",
                 }}
               >
+                
                 <p style={{ marginBlockStart: '0em' }}>Dear hacker,</p>
                 <p>
                   We're inviting you to{' '}
-                  <Text as="b" sx={{ fontWeight: 900, color: 'red' }}>
+                  <Text as="h1" sx={{ fontWeight: 900, color: 'red', display: 'inline', fontSize: '1em' }}>
                     🦁 Lion City Hacks
                   </Text>
                   , a hackathon for teenagers in Singapore, on{' '}
@@ -680,13 +682,13 @@ export default function Index(props) {
           </Marquee>
         </Box>
         <Container sx={{ color: 'white' }}>
-          <Heading as="h1" pt={5} pb={4} sx={{ fontSize: 5 }}>
+          <Heading as="p" pt={5} pb={4} sx={{ fontSize: 5 }}>
             A <Text color="orange">hackathon</Text> is a social coding event
             where <Text color="green">teens come together</Text> to{' '}
             <Text color="red">build projects</Text> in a short amount of time
             and <Text color="cyan">share them with the world</Text>.
           </Heading>
-          <Heading as="h1" pb={4} sx={{ fontSize: 5 }}>
+          <Heading as="h2" pb={4} sx={{ fontSize: 5 }}>
             <Text sx={{ fontWeight: 500 }}>
               At Lion City Hacks, 100+ teenagers will gather to:
             </Text>
@@ -695,7 +697,7 @@ export default function Index(props) {
         </Container>
         <Box bg="purple" color="white" mt={5} py={5}>
           <Container>
-            <Heading as="h1" sx={{ fontSize: 4, mb: 4 }}>
+            <Heading as="h2" sx={{ fontSize: 4, mb: 4 }}>
               <u>The Rundown & Registration</u>
             </Heading>
             <Grid sx={{ color: 'black', fontSize: 2 }} gap={3}>
