@@ -620,7 +620,7 @@ export default function Index(props) {
                 <p>
                   We're inviting you to{' '}
                   <Text as="h1" sx={{ fontWeight: 900, color: 'red', display: 'inline', fontSize: '1em' }}>
-                    🦁 Lion City Hacks
+                    🦁 Lion City Hacks <span style={{display: 'none'}}>- Singapore's hackathon for teenagers.</span>
                   </Text>
                   , a hackathon for teenagers in Singapore, on{' '}
                   <i>
