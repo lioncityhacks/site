@@ -738,7 +738,7 @@ export default function Index(props) {
                 </Box>
               </Grid>
               <Box bg="white" sx={{ p: 3 }}>
-                <b>Eligibility:</b> all secondary, pre-university and JC
+                <b>Eligibility:</b> all secondary school, junior college & pre-university
                 students are welcome to join (no experience required!).
               </Box>
               <Box bg="white" sx={{ p: 3 }}>
