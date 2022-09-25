@@ -6,7 +6,7 @@ const makeTitle = (title, name) =>
 
 const Meta = ({
   title = `Lion City Hacks - Singapore's hackathon for teenagers.`, // page title
-  name =  `Lion City Hacks  - Singapore's hackathon for teenagers.`, // site name
+  name =  `Lion City Hacks - Singapore's hackathon for teenagers.`, // site name
   description = "We're inviting you to Lion City Hacks, a hackathon for teenagers in Singapore, on December 3rd at Red Hat Singapore. All secondary school, junior college & pre-university students are welcome!", // page description
   image = 'https://cloud-eapm8zekq-hack-club-bot.vercel.app/0twitter_post_-_2.png', // social card image URL
   url = 'https://lioncityhacks.com',
