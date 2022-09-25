@@ -337,7 +337,7 @@ const Features = () => (
         }}
         src="https://cloud-cq6xnpswq-hack-club-bot.vercel.app/1hack_club_assemble_00711.jpg"
         href="https://cloud-cq6xnpswq-hack-club-bot.vercel.app/1hack_club_assemble_00711.jpg"
-        alt="Hacker delivering a workshop (📸 @kunalbotla)"
+        alt="Junior college student delivering a workshop (📸 @kunalbotla)"
         objectPosition="left bottom"
       />
       <InfoBox
@@ -364,7 +364,7 @@ const Features = () => (
           }}
           src="https://cloud-cq6xnpswq-hack-club-bot.vercel.app/2hack_club_assemble_01601.jpg"
           href="https://cloud-cq6xnpswq-hack-club-bot.vercel.app/2hack_club_assemble_01601.jpg"
-          alt="Hacker reverse engineering a lamp (📸 @kunalbotla)"
+          alt="Secondary school student reverse engineering a lamp (📸 @kunalbotla)"
         />
       </Box>
       <InfoBox
@@ -652,7 +652,7 @@ export default function Index(props) {
         </Box>
         <BGImg
           src={AssembleImgFile}
-          alt="Hack Clubbers assemble at Figma HQ for the first IRL hackathon in SF since 2020: Assemble. 📸 Photo by Kunal Botla, Hack Clubber in MA!"
+          alt="Secondary school students assemble at Figma HQ for the first IRL hackathon in SF since 2020: Assemble. 📸 Photo by Kunal Botla, Hack Clubber in MA!"
           priority
         />
       </Box>
