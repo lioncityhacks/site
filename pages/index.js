@@ -573,7 +573,7 @@ export default function Index({target = 'teenagers'}) {
           HACK!
         </motion.h1>
       </motion.div> */}
-      <Meta target={props.target || 'teenagers'} />
+      <Meta target={target || 'teenagers'} />
       <Box
         sx={{
           bg: 'dark',
@@ -622,9 +622,9 @@ export default function Index({target = 'teenagers'}) {
                 <p>
                   We're inviting you to{' '}
                   <Text as="h1" sx={{ fontWeight: 900, color: 'red', display: 'inline', fontSize: '1em' }}>
-                    🦁 Lion City Hacks<span style={{display: 'none'}}> - Singapore's hackathon for {props.target}.</span>
+                    🦁 Lion City Hacks<span style={{display: 'none'}}> - Singapore's hackathon for {target}.</span>
                   </Text>
-                  , a hackathon for {props.target} in Singapore, on{' '}
+                  , a hackathon for {target} in Singapore, on{' '}
                   <i>
                     <u>December 3rd</u>
                   </i>{' '}
