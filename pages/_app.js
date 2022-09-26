@@ -8,7 +8,7 @@ import { ThemeProvider } from 'theme-ui'
 const App = ({ Component, pageProps }) => {
   return (
     <ThemeProvider theme={theme}>
-      <Meta />
+      
       <ColorSwitcher />
       <Component {...pageProps} />
       <NextScript defer data-domain="lioncityhacks.com" src="https://plausible.io/js/plausible.js"></NextScript>

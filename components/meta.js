@@ -10,14 +10,15 @@ const Meta = ({
   description = "Lion City Hacks is taking place on December 3rd at Red Hat Singapore. All secondary school, junior college & polytechnic students are welcome at the hackathon!", // page description
   image = 'https://cloud-eapm8zekq-hack-club-bot.vercel.app/0twitter_post_-_2.png', // social card image URL
   url = 'https://lioncityhacks.com',
+  target,
   children,
 }) => (
   <Head>
     <meta key="og_locale" property="og:locale" content="en_US" />
     <meta key="og_type" property="og:type" content="website" />
     <meta key="og_site" property="og:site_name" content={name} />
-    <title key="title">{makeTitle(title, name)}</title>
-    <meta key="og_title" property="og:title" content={makeTitle(title, name)} />
+    <title key="title">{makeTitle(title.replace('teenagers', target), name.replace('teenagers', target))}</title>
+    <meta key="og_title" property="og:title" content={makeTitle(title.replace('teenagers', target), name.replace('teenagers', target))} />
     <link rel="preconnect" href="https://fonts.googleapis.com" /> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> 
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet"></link>

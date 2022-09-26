@@ -19,6 +19,7 @@ import times from 'lodash/times'
 
 import Icon from '@hackclub/icons'
 import theme from '../lib/theme'
+import Meta from '../components/meta'
 
 const Card = ({ question = 'question', answer = 'answer', sx = {} }) => (
   <Box
@@ -456,7 +457,7 @@ const InfoBox = ({ iconGlyph, heading, color, children, sx }) => (
   </Box>
 )
 
-export default function Index(props) {
+export default function Index(props = {target: 'teenagers'}) {
   return (
     <>
     {/* <motion.div
@@ -572,6 +573,7 @@ export default function Index(props) {
           HACK!
         </motion.h1>
       </motion.div> */}
+      <Meta target={props.target} />
       <Box
         sx={{
           bg: 'dark',
@@ -620,8 +622,9 @@ export default function Index(props) {
                 <p>
                   We're inviting you to{' '}
                   <Text as="h1" sx={{ fontWeight: 900, color: 'red', display: 'inline', fontSize: '1em' }}>
-                    🦁 Lion City Hacks<span style={{display: 'none'}}> - Singapore's hackathon for teenagers.</span>
-                  </Text>, a hackathon for teenagers in Singapore, on{' '}
+                    🦁 Lion City Hacks<span style={{display: 'none'}}> - Singapore's hackathon for {props.target}.</span>
+                  </Text>
+                  , a hackathon for {props.target} in Singapore, on{' '}
                   <i>
                     <u>December 3rd</u>
                   </i>{' '}
