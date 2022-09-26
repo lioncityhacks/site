@@ -214,7 +214,7 @@ const Glossary = () => (
           }}
         />
         <SupporterImage
-          src="https://www.Red Hat.com/cms/managed-files/Asset-Red_Hat-Logo_page-Logo-RGB.svg?itok=yWDK-rRz"
+          src="https://cloud-jucxgkxn3-hack-club-bot.vercel.app/0asset-red_hat-logo_page-logo-rgb.svg"
           href="https://Red Hat.com"
           sx={{
             bg: 'white',
