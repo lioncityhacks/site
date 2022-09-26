@@ -573,7 +573,7 @@ export default function Index(props = {target: 'teenagers'}) {
           HACK!
         </motion.h1>
       </motion.div> */}
-      <Meta target={props.target} />
+      <Meta target={props.target || 'teenagers'} />
       <Box
         sx={{
           bg: 'dark',
