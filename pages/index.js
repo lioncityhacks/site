@@ -457,7 +457,7 @@ const InfoBox = ({ iconGlyph, heading, color, children, sx }) => (
   </Box>
 )
 
-export default function Index(props = {target: 'teenagers'}) {
+export default function Index({target = 'teenagers'}) {
   return (
     <>
     {/* <motion.div
