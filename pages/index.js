@@ -10,6 +10,7 @@ import {
   Image,
   Grid,
   Link,
+  Divider,
 } from 'theme-ui'
 import BGImg from '../components/bg'
 import AssembleImgFile from '../public/assemble.jpg'
@@ -239,6 +240,55 @@ const Glossary = () => (
         </a>{' '}
         or  <a href="https://bank.hackclub.com/donations/start/lion-city-hacks" target="_blank" style={{ color: 'white' }}>donate directly</a>!
       </Box>
+      <Text
+        sx={{
+          color: 'white',
+          pt: 4,
+          pb: 2,
+          display: 'block',
+          textShadow: 'elevated',
+          fontSize: 4,
+          fontWeight: 900,
+        }}
+      >
+        More About Hackathons & Lion City Hacks
+      </Text>
+      <Grid columns={2}>
+        <Box>
+          <Text
+            sx={{
+              color: 'white',
+              my: 2,
+              display: 'block',
+              textShadow: 'elevated',
+              fontSize: 3,
+              fontWeight: 500
+            }}
+          >
+            Take a look inside a hackathon with this documentary created by Hack Club:
+          </Text>
+          <iframe height="315" width="100%" src="https://www.youtube.com/embed/PnK4gzO6S3Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+        </Box>
+        <Box>
+          <Text
+            sx={{
+              color: 'white',
+              my: 2,
+              display: 'block',
+              textShadow: 'elevated',
+              fontSize: 3,
+              fontWeight: 500,
+            }}
+          >
+            Follow along with us through our team's Twitter account 
+            (<Link href="https://twitter.com/lioncityhacks" target="_blank">@lioncityhacks</Link>):
+          </Text>
+          <Link href="https://twitter.com/lioncityhacks" target="_blank">
+            <img src="https://cloud-7njvu6zcc-hack-club-bot.vercel.app/0localhost_3000_.png" width="100%" />
+          </Link>
+        </Box>
+
+      </Grid>
     </Container>
   </Box>
 )
@@ -457,10 +507,10 @@ const InfoBox = ({ iconGlyph, heading, color, children, sx }) => (
   </Box>
 )
 
-export default function Index({target = 'teenagers'}) {
+export default function Index(props = { target: 'teenagers' }) {
   return (
     <>
-    {/* <motion.div
+      {/* <motion.div
         animate={{
           opacity: [1, 1, 1, 1, 1, 1, 0, 0, 0, 0],
           height: [
@@ -617,12 +667,12 @@ export default function Index({target = 'teenagers'}) {
                   fontFamily: "'Apple Chancery', cursive",
                 }}
               >
-                
+
                 <p style={{ marginBlockStart: '0em' }}>Dear hacker,</p>
                 <p>
                   We're inviting you to{' '}
                   <Text as="h1" sx={{ fontWeight: 900, color: 'red', display: 'inline', fontSize: '1em' }}>
-                    🦁 Lion City Hacks<span style={{display: 'none'}}> - Singapore's hackathon for {target}.</span>
+                    🦁 Lion City Hacks<span style={{ display: 'none' }}> - Singapore's hackathon for {props.target}.</span>
                   </Text>
                   , a hackathon for {target} in Singapore, on{' '}
                   <i>
@@ -749,7 +799,7 @@ export default function Index({target = 'teenagers'}) {
                 <b>COVID-19:</b> We require all participants to be vaccinated
                 against COVID-19 or to have a medical exemption. We will be
                 providing participants with N95 masks (for optional but recommended
-                usage, inline with MOH guidelines). 
+                usage, inline with MOH guidelines).
               </Box>
               <Box
                 bg="green"
@@ -816,6 +866,10 @@ export default function Index({target = 'teenagers'}) {
               font-weight: 100;
               font-style: normal;
               font-display: swap;
+          }
+
+          .twitter-tweet {
+            max-width: 100%!important;
           }
 
         h1 {
