@@ -711,7 +711,7 @@ export default function Index({target = 'teenagers'}) {
                 <Box>
                   <b>Venue:</b> Red Hat Singapore, <br />
                   88 Market Street, <br />
-                  Level 45 of CapitaSpring, Singapore 048948 <br />
+                  Level 46 of CapitaSpring, Singapore 048948 <br />
                   <Text as="small" sx={{ opacity: 0.7 }}>
                     (Near Raffles Place Station)
                   </Text>
