@@ -239,6 +239,54 @@ const Glossary = () => (
         </a>{' '}
         or  <a href="https://bank.hackclub.com/donations/start/lion-city-hacks" target="_blank" style={{ color: 'white' }}>donate directly</a>!
       </Box>
+      <Text
+        sx={{
+          color: 'white',
+          pt: 4,
+          pb: 2,
+          display: 'block',
+          textShadow: 'elevated',
+          fontSize: 4,
+          fontWeight: 900,
+        }}
+      >
+        More About Hackathons & Lion City Hacks
+      </Text>
+      <Grid columns={2}>
+        <Box>
+          <Text
+            sx={{
+              color: 'white',
+              my: 2,
+              display: 'block',
+              textShadow: 'elevated',
+              fontSize: 3,
+              fontWeight: 500
+            }}
+          >
+            Take a look inside a hackathon with this documentary created by Hack Club:
+          </Text>
+          <iframe height="315" width="100%" src="https://www.youtube.com/embed/PnK4gzO6S3Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+        </Box>
+        <Box>
+          <Text
+            sx={{
+              color: 'white',
+              my: 2,
+              display: 'block',
+              textShadow: 'elevated',
+              fontSize: 3,
+              fontWeight: 500,
+            }}
+          >
+            Follow along with us through our team's Twitter account 
+            (<Link href="https://twitter.com/lioncityhacks" target="_blank">@lioncityhacks</Link>):
+          </Text>
+          <Link href="https://twitter.com/lioncityhacks" target="_blank">
+            <img src="https://cloud-7njvu6zcc-hack-club-bot.vercel.app/0localhost_3000_.png" width="100%" />
+          </Link>
+        </Box>
+      </Grid>
     </Container>
   </Box>
 )
