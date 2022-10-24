@@ -790,7 +790,7 @@ export default function Index({target = 'teenagers'}) {
                 </Box>
               </Grid>
               <Box bg="white" sx={{ p: 3 }}>
-                <b>Eligibility:</b> all secondary school, junior college, polytechnic & pre-university
+                <b>Eligibility:</b> all secondary school, junior college & polytechnic
                 students are welcome to join (no experience required!).
               </Box>
               <Box bg="white" sx={{ p: 3 }}>
