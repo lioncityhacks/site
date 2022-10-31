@@ -20,6 +20,7 @@ import times from 'lodash/times'
 import Icon from '@hackclub/icons'
 import theme from '../lib/theme'
 import Meta from '../components/meta'
+import ScrollHint from '../components/scroll-hint'
 
 const Card = ({ question = 'question', answer = 'answer', sx = {} }) => (
   <Box
@@ -698,10 +699,15 @@ export default function Index({target = 'teenagers'}) {
                   </Link>{' '}
                   or read on for more details.
                 </p>
+                
               </Container>
+             
             </motion.div>
+            <ScrollHint />
           </motion.div>
+          
         </Box>
+        
         <BGImg
           src={AssembleImgFile}
           alt="Secondary school students assemble at Figma HQ for the first IRL hackathon in SF since 2020: Assemble. 📸 Photo by Kunal Botla, Hack Clubber in MA!"
