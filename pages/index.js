@@ -253,7 +253,7 @@ const Glossary = () => (
       >
         More About Hackathons & Lion City Hacks
       </Text>
-      <Grid columns={2}>
+      <Grid columns={[1, 2]}>
         <Box>
           <Text
             sx={{
