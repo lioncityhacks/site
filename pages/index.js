@@ -819,7 +819,7 @@ export default function Index({target = 'teenagers'}) {
                   textAlign: 'center',
                 }}
               >
-                JOIN THE WAITLIST ➚
+                REGISTER ➚
               </Box>
             </Grid>
           </Container>
