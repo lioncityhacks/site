@@ -7,8 +7,8 @@ const makeTitle = (title, name) =>
 const Meta = ({
   title = `Lion City Hacks - Singapore's hackathon for teenagers.`, // page title
   name =  `Lion City Hacks - Singapore's hackathon for teenagers.`, // site name
-  description = "Lion City Hacks is taking place on December 3rd at Red Hat Singapore. All secondary school, junior college & polytechnic students are welcome at the hackathon!", // page description
-  image = 'https://cloud-eapm8zekq-hack-club-bot.vercel.app/0twitter_post_-_2.png', // social card image URL
+  description = "150 teengers gathered in Singapore at Red Hat's APAC HQ on December 3rd 2022 to build apps, websites, games and more!", // page description
+  image = 'https://cloud-ktiz3dyto-hack-club-bot.vercel.app/0twitter_post_-_3.png', // social card image URL
   url = 'https://lioncityhacks.com',
   target,
   children,
