@@ -10,7 +10,6 @@ const App = ({ Component, pageProps }) => {
   return (
     <ThemeProvider theme={theme}>
       <Analytics />
-      <ColorSwitcher />
       <Component {...pageProps} />
       <NextScript defer data-domain="lioncityhacks.com" src="https://plausible.io/js/plausible.js"></NextScript>
     </ThemeProvider>
