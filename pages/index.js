@@ -114,7 +114,7 @@ export default function Index({ target = 'teenagers' }) {
             pt: '20px',
           }}
         >
-          With thanks from Arsh, Dama, Dev, Edwin, Ishnaa, Neil, Neer, Sam,
+          With thanks from Arsh, Dama, Dev, Edwin, Gabriel, Ishnaa, Neil, Neer, Sam,
           Yuyoung & Victoria.
         </Box>
       </Flex>
