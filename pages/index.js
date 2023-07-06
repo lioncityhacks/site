@@ -75,7 +75,7 @@ export default function Index({ target = 'teenagers' }) {
             <Text>DECEMBER 3RD 2022</Text>
           </Heading>
           <Heading sx={{ fontSize: [5, 5, 6], mt: 2 }}>
-            150 teengers gathered in Singapore to build apps, websites, games
+            150 teenagers gathered in Singapore to build apps, websites, games
             and more!
           </Heading>
           <Flex mt={3} sx={{ flexDirection: ['column', null, 'row'], gap: 2 }}>
