@@ -41,7 +41,7 @@ export default function Index({ target = 'teenagers' }) {
           <Box sx={{ mr: 2, flexGrow: 1, textAlign: 'right', fontSize: 1 }}>
             Event open sourced on: <br />
             <Text sx={{ textTransform: 'uppercase', fontSize: ['5vw', 2] }}>
-              <Link href="https://github.com/lioncityhacks/site" color="smoke">GitHub</Link> & <Link color="smoke" href="https://bank.hackclub.com/lion-city-hacks/">Hack Club Bank</Link>
+              <Link href="https://github.com/lioncityhacks/site" color="smoke">GitHub</Link> & <Link color="smoke" href="https://hcb.hackclub.com/lion-city-hacks/">HCB</Link>
             </Text>
           </Box>
         </Flex>
